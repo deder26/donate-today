@@ -1,14 +1,17 @@
 body {
+  font-family: "Inter", sans-serif;
   font-family: "Teko", sans-serif;
   margin: 0;
   padding: 0;
 }
+
 .top-banner {
   height: 500px;
   background-image: url(/images/donation13.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 174px 307px 175px 307px;
+  padding: 150px 307px 175px 307px;
+  border: 1px solid red;
 }
 .top-banner-content {
   color: white;
@@ -21,13 +24,66 @@ body {
 .top-banner-content p {
   font-size: 30px;
 }
-.top-banner-content a {
+.donation-link {
   color: white;
-  font-size: 35px;
+  font-size: 25px;
   text-decoration: none;
   background-color: orangered;
   border-radius: 5px;
   padding: 5px;
+}
+
+.donate-today {
+  height: 500px;
+  padding: 174px 307px 175px 307px;
+}
+.donate-today-content {
+  text-align: center;
+}
+.donate-today-content h1 {
+  font-size: 65px;
+  margin: 0;
+}
+.donate-today-content p {
+  font-size: 30px;
+}
+.amount {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+.amount span {
+  font-size: 20px;
+  font-weight: 700;
+  border: 1px solid black;
+  padding: 43px 23px;
+  margin: 5px;
+  background: #fafafa;
+  border-radius: 5px;
+}
+
+.box-shadow {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.amount .amount-highlight {
+  background-color: #ea9595;
+}
+.amount-input-div {
+  display: block;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  justify-content: center;
+}
+.input-amount {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  width: 50%;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .thanks-giving h1 {
