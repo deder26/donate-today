@@ -140,12 +140,27 @@ body {
   background: #fff4d6;
   margin: 5px;
 }
+.contribute-now {
+  padding: 150px 200px 90px 200px;
+}
+.contribute-now-content {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+}
 
 .donate-updates {
   justify-content: center;
   text-align: center;
 }
-
+.content-message h1 {
+  font-size: 65px;
+  font-weight: 700;
+}
+.content-message p {
+  font-size: 30px;
+}
 .donate-updates h1 {
   font-size: 65px;
 }
